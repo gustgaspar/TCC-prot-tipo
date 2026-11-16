@@ -1,0 +1,15 @@
+{
+  "app": "F01",
+  "categoria": "Redes sociais e vídeo curto",
+  "versao_app": "1.0-sintetico",
+  "dispositivo": "fixture",
+  "data": "2026-11-20",
+  "modo": "sintetico",
+  "pacote": "com.exemplo.violadora",
+  "pares_nao_aplicaveis": [
+    "P5"
+  ],
+  "pares_nao_observaveis": [
+    "P4"
+  ]
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+# roteiros reais (contêm o pacote do app) e dados brutos não anonimizados
+ferramenta/roteiros/local/*
+!ferramenta/roteiros/local/.gitkeep
+dados_brutos/
+*.mp4
+*.mkv
+# saídas geradas a partir das fixtures
+tests/fixtures/sessoes/*/achados.json
+tests/fixtures/sessoes/*/requisitos.jsonl
+tests/fixtures/sessoes/*/relatorio.*

@@ -1,0 +1,19 @@
+id_evidencia,app,categoria,versao_app,dispositivo,data_hora,pesquisador,par,fluxo,passo,acao,operador_klm,caracteres,descricao_elemento,codigo_candidato,arquivo_tela,trecho_video,canal_externo,gatilho,observacoes
+A00-P1-E-001,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,engajamento,1,toque,,0,Botão Criar conta,,A00_001.png,00:01:00,,,
+A00-P1-E-002,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,engajamento,2,digitacao,,20,Campo e-mail,,A00_002.png,00:02:00,,,
+A00-P1-E-003,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,engajamento,3,digitacao,,10,Campo senha,,A00_003.png,00:03:00,,,
+A00-P1-E-004,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,engajamento,4,toque,,0,Botão Continuar,,A00_004.png,00:04:00,,,
+A00-P1-E-005,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,engajamento,5,toque,,0,Aceitar termos,,A00_005.png,00:05:00,,,
+A00-P1-E-006,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,engajamento,6,toque,,0,Concluir,,A00_006.png,00:06:00,,,
+A00-P1-S-007,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,7,toque,,0,Perfil,,A00_007.png,00:07:00,,,
+A00-P1-S-008,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,8,toque,,0,Configurações,,A00_008.png,00:08:00,,,
+A00-P1-S-009,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,9,toque,,0,Conta,,A00_009.png,00:09:00,,,
+A00-P1-S-010,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,10,toque,,0,Privacidade,,A00_010.png,00:10:00,,,
+A00-P1-S-011,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,11,toque,,0,Gerenciar conta,,A00_011.png,00:11:00,,,
+A00-P1-S-012,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,12,toque,,0,Excluir conta,,A00_012.png,00:12:00,,,
+A00-P1-S-013,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,13,toque,,0,Selecionar motivo,,A00_013.png,00:13:00,,,
+A00-P1-S-014,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,14,toque,,0,Continuar,,A00_014.png,00:14:00,,,
+A00-P1-S-015,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,15,toque,,0,Tela 'Tem certeza? Sentiremos sua falta' – Continuar,AR09,A00_015.png,00:15:00,,,texto culpabilizante
+A00-P1-S-016,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,16,toque,,0,Oferta: 'Fique e ganhe 1 mês grátis' – Recusar,AR07,A00_016.png,00:16:00,,,oferta de retenção
+A00-P1-S-017,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,17,digitacao,,10,Confirmar senha,,A00_017.png,00:17:00,,,
+A00-P1-S-018,A00,Exemplo fictício,1.0,Emulador Pixel 7 / Android 14,2026-11-20 19:30,P1,P1,saida,18,toque,,0,Link 'Concluir exclusão no site',AR07,A00_018.png,00:18:00,sim,,abre o navegador

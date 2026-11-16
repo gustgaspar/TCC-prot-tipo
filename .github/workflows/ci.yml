@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar
+        run: pip install -e ".[dev]"
+      - name: Testes unitários e de integração (detectores, IAF, kappa, coletor com driver falso, requisitos)
+        run: pytest -v
+      - name: Requisitos Gherkin no app sintético conforme (deve passar)
+        run: python -m antipadroes verificar tests/fixtures/sessoes/F02
+      - name: Requisitos Gherkin no app sintético que viola (deve reprovar)
+        run: |
+          if python -m antipadroes verificar tests/fixtures/sessoes/F01; then
+            echo "Esperava requisitos reprovados em F01"; exit 1
+          fi
+      - name: Relatórios de exemplo
+        run: python -m antipadroes analisar tests/fixtures/sessoes/F01 tests/fixtures/sessoes/F02 || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: relatorios-exemplo
+          path: tests/fixtures/sessoes/*/relatorio.html

@@ -1,0 +1,10 @@
+# Observações transversais: feed (AR01) e reprodução automática (AR02).
+app: A01
+pacote: com.exemplo.app
+par: "-"
+fluxo: transversal
+passos:
+  - {acao: observacao, descricao: "Tela inicial"}
+  - {acao: gesto, direcao: cima, repeticoes: 20, descricao: "rolar feed"}
+  - {acao: toque, alvo: {texto: "Vídeos"}, descricao: "Abrir vídeo"}
+  - {acao: espera, segundos: 12, descricao: "aguardar o fim do vídeo"}

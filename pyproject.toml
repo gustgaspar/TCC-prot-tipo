@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "antipadroes-retencao"
+version = "0.1.0"
+description = "Detecção de antipadrões de retenção em aplicativos Android: coletor, detectores, requisitos Gherkin e relatório (TCC PUCPR)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Gustavo Gaspar de Campos" },
+  { name = "Ícaro Ales Nery" },
+  { name = "João Vítor D’El-Rey Raposo" },
+]
+dependencies = ["behave>=1.2.6", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+coleta = ["Appium-Python-Client>=4.0"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+antipadroes = "antipadroes.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["ferramenta"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

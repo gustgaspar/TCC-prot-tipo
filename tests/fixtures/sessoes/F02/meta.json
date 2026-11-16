@@ -1,0 +1,13 @@
+{
+  "app": "F02",
+  "categoria": "Aplicativos gamificados de estudo e de exercício",
+  "versao_app": "1.0-sintetico",
+  "dispositivo": "fixture",
+  "data": "2026-11-20",
+  "modo": "sintetico",
+  "pacote": "com.exemplo.conforme",
+  "pares_nao_aplicaveis": [
+    "P3"
+  ],
+  "pares_nao_observaveis": []
+}

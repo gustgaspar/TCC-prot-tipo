@@ -1,0 +1,18 @@
+# Roteiro de exemplo: fluxo de SAÍDA do par P1 (excluir conta) do app A01.
+# Os localizadores (id/texto) vêm do Appium Inspector. Roteiros reais ficam em roteiros/local/,
+# que não é versionado (contém o pacote real do app). Credenciais: ${ENV:NOME}.
+app: A01
+categoria: Redes sociais e vídeo curto
+pacote: com.exemplo.app            # substituir pelo pacote real no roteiro local
+atividade: .MainActivity           # opcional
+par: P1
+fluxo: saida
+passos:
+  - {acao: toque, alvo: {desc: "Perfil"}, descricao: "Abrir perfil"}
+  - {acao: toque, alvo: {desc: "Menu"}, descricao: "Abrir menu"}
+  - {acao: toque, alvo: {texto: "Configurações"}}
+  - {acao: toque, alvo: {texto: "Conta"}}
+  - {acao: toque, alvo: {texto: "Excluir conta"}, codigo_candidato: AR07}
+  - {acao: digitacao, alvo: {id: "com.exemplo.app:id/senha"}, texto: "${ENV:SENHA_A01}", descricao: "Confirmar senha"}
+  - {acao: toque, alvo: {texto: "Excluir"}}
+  - {acao: observacao, descricao: "Tela final (confirmação ou redirecionamento ao site)"}

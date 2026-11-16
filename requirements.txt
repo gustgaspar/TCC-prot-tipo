@@ -1,0 +1,5 @@
+behave>=1.2.6
+PyYAML>=6.0
+pytest>=8.0
+# coleta em emulador/dispositivo (opcional):
+Appium-Python-Client>=4.0
