@@ -79,6 +79,7 @@ tempo estimado pelo *Keystroke-Level Model*). IAF > 1: sair custa mais do que en
 | `python -m antipadroes analisar <sessoes>…` | tudo acima + `relatorio.html` |
 | `python -m antipadroes kappa <codificacao.csv>` | kappa de Fleiss (3 codificadores) ou de Cohen (2) |
 | `python -m antipadroes avaliar <oraculo.csv> <sessoes>…` | precisão, revocação e F1 dos detectores (TCC 2) |
+| `python -m antipadroes piloto --codificadores <nomes>…` | piloto inteiro: fichas → sessões → IAF → planilhas de codificação → kappa → `piloto/resultados.md` |
 | `python -m antipadroes notificacoes <sessao> --pacote <pkg>` | registra notificações ativas (experimental) |
 
 Montagem do ambiente com emulador e Appium: [`docs/ambiente.md`](docs/ambiente.md).

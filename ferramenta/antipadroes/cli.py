@@ -11,6 +11,7 @@ Comandos
   analisar      detectar + verificar + relatorio, em sequência
   kappa         concordância entre codificadores (Fleiss ou Cohen)
   avaliar       precisão, revocação e F1 dos detectores contra o oráculo
+  piloto        fichas → sessões → IAF → planilhas de codificação → kappa → resultados.md
 """
 from __future__ import annotations
 
@@ -20,7 +21,7 @@ import sys
 from dataclasses import asdict
 from pathlib import Path
 
-from . import avaliacao, concordancia, detectores, ficha, iaf, notificacoes, relatorio, verificador
+from . import avaliacao, concordancia, detectores, ficha, iaf, notificacoes, piloto, relatorio, verificador
 from .modelo import Sessao
 
 
@@ -48,6 +49,8 @@ def main(argv=None) -> int:
     c = sub.add_parser("analisar"); c.add_argument("sessoes", nargs="+")
     c = sub.add_parser("kappa"); c.add_argument("csv")
     c = sub.add_parser("avaliar"); c.add_argument("oraculo"); c.add_argument("sessoes", nargs="+"); c.add_argument("--saida")
+    c = sub.add_parser("piloto"); c.add_argument("pasta", nargs="?", default="piloto")
+    c.add_argument("--codificadores", nargs="*", default=[], help="nomes para gerar as planilhas da rodada 1")
     a = ap.parse_args(argv)
 
     if a.cmd == "coletar":
@@ -99,6 +102,19 @@ def main(argv=None) -> int:
         print(txt)
         if a.saida:
             Path(a.saida).write_text(txt, encoding="utf-8")
+    elif a.cmd == "piloto":
+        try:
+            r = piloto.executar(a.pasta, a.codificadores)
+        except FileNotFoundError as e:
+            print(e, file=sys.stderr)
+            return 2
+        print("sessões manuais:", ", ".join(r["sessoes_manuais"]) or "nenhuma (preencha piloto/fichas/)")
+        print("sessões automatizadas:", ", ".join(r["sessoes_auto"]) or "nenhuma")
+        for p in r["planilhas_criadas"]:
+            print("planilha de codificação criada:", p)
+        for n, k in sorted(r["kappas"].items()):
+            print(f"rodada {n}:", f"kappa {k['metodo']} = {k['kappa']} ({k['interpretacao']}), {k['itens']} itens" if k else "planilhas ainda em branco")
+        print("resultados →", r["resultados"])
     return 0
 
 

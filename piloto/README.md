@@ -4,47 +4,40 @@ O piloto testa o protocolo de inspeção, a contagem de ações (IAF) e a codifi
 inspeção completa do TCC 2 (Seção 3.2.4 e Quadro 5-2 do projeto, sprints S16–S18).
 
 ## Aplicativos
-| Código | Categoria | Pares aplicáveis | Inspetores | Situação |
-|---|---|---|---|---|
-| A01 | _preencher (ex.: vídeo curto)_ | P1, P2, P3 | _nomes_ | ⬜ a fazer |
-| A02 | _preencher (ex.: gamificado de estudo)_ | P1, P2, P5 | _nomes_ | ⬜ a fazer |
+Configurados em [`apps.csv`](apps.csv) (código, categoria, pares não aplicáveis / não observáveis,
+dias de notificações observados). Pares previstos: A01 (vídeo curto) P1, P2, P3; A02 (gamificado de
+estudo) P1, P2, P5 — P4 exige pagamento e fica como não observável.
 
 > Critérios de escolha: Android, gratuitos, entre os mais baixados no Brasil, sem bloqueio de
 > captura de tela e sem pagamento nos fluxos. A identificação real dos apps **não** vai para o
 > repositório (só os códigos).
 
 ## Passo a passo
-1. Cada inspetor preenche sua ficha: `fichas/A01_<inspetor>.csv` (modelo em `../protocolo/ficha_modelo.csv`;
-   exemplo preenchido em `../protocolo/ficha_exemplo.csv`).
-2. Converter cada ficha em sessão e calcular o IAF:
-   ```bash
-   python -m antipadroes ficha piloto/fichas/A01_<inspetor>.csv piloto/sessoes/A01_<inspetor> --nao-aplicaveis P4 P5
-   python -m antipadroes iaf piloto/sessoes/A01_* piloto/sessoes/A02_* --csv piloto/iaf.csv
-   ```
-3. Os três codificam as evidências dos dois apps em `codificacao/codificacao.csv` (modelo em
-   `codificacao/codificacao_modelo.csv`) sem ver os outros e calculam o kappa:
-   ```bash
-   python -m antipadroes kappa piloto/codificacao/codificacao.csv
-   ```
-   Abaixo de 0,61: ajustar o livro de códigos, registrar em `mudancas_protocolo.md` e fazer nova rodada
-   (`codificacao_rodada2.csv`).
-4. Rodar a ferramenta sobre uma sessão automatizada (ver `../docs/ambiente.md`) e gerar o relatório:
-   ```bash
-   python -m antipadroes analisar piloto/sessoes/A01_auto
-   ```
-5. Preencher os resultados abaixo e as mudanças no protocolo.
+Um único comando faz todo o processamento; ele pode ser rodado a qualquer momento e só preenche
+o que já tem dado (o restante fica “—”):
 
-## Resultados do piloto
-| Métrica | A01 | A02 |
-|---|---|---|
-| IAF P1 (excluir ÷ criar) | | |
-| IAF P2 (desativar ÷ ativar notificações) | | |
-| IAF P3 / P5 | | |
-| Saída por canal externo? | | |
-| Antipadrões codificados | | |
-| Kappa de Fleiss (rodada 1 → rodada 2) | | |
-| Divergências de contagem entre inspetores | | |
-| Fluxos automatizados com sucesso | | |
+```bash
+python -m antipadroes piloto --codificadores gustavo icaro joao
+```
+
+1. **Inspeção** – cada inspetor percorre os pares seguindo o [protocolo](../protocolo/protocolo_inspecao.md)
+   e registra uma linha por ação em `fichas/<APP>_<inspetor>.csv` (modelo em `../protocolo/ficha_modelo.csv`;
+   exemplo em `../protocolo/ficha_exemplo.csv`). Ex.: `fichas/A01_gustavo.csv`.
+2. **Processar** – rode o comando acima. Ele converte as fichas em `sessoes/<APP>_<inspetor>/`, grava
+   `iaf.csv` e cria uma planilha de codificação por pessoa em `codificacao/rodada1/<nome>.csv`, já com
+   as unidades a codificar (pares P1/P4 e cada tela marcada com código candidato nas fichas).
+   Rode **depois** que todas as fichas estiverem prontas: planilhas já existentes nunca são sobrescritas
+   (para regenerar, apague a pasta da rodada).
+3. **Codificar** – cada um abre **só a própria** planilha e marca `1` (presente) ou `0` (ausente) na
+   coluna `codificador_<nome>`, consultando o [livro de códigos](../protocolo/livro_de_codigos.md).
+4. **Kappa** – rode o comando de novo: ele junta as planilhas em `codificacao/codificacao_rodada1.csv`,
+   calcula o kappa de Fleiss e lista as divergências. Abaixo de 0,61: discutir as divergências, ajustar
+   o livro de códigos, registrar em `mudancas_protocolo.md`, copiar as planilhas para
+   `codificacao/rodada2/`, recodificar e rodar de novo.
+5. **Coleta automatizada** (opcional no piloto) – com o ambiente de [`../docs/ambiente.md`](../docs/ambiente.md),
+   grave em `sessoes/<APP>_auto/` com `python -m antipadroes coletar`; o comando do piloto inclui essa
+   sessão no IAF e na linha “fluxos automatizados”. Relatório: `python -m antipadroes analisar sessoes/A01_auto`.
+6. **Resultados** – a tabela fica em [`resultados.md`](resultados.md), gerada pelo comando (não edite à mão).
 
 ## Limitações conhecidas
 - Observação de notificações: 14 dias completos ficam para o TCC 2 (no piloto: dias cobertos = ___).

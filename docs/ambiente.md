@@ -23,7 +23,7 @@ cada botão e montar os roteiros em `ferramenta/roteiros/local/` (não versionad
 ```bash
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[coleta,dev]"
-pytest                                                  # 24 testes, sem emulador
+pytest                                                  # testes, sem emulador
 ```
 
 ## 4. Coletar e analisar
