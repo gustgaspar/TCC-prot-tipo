@@ -1,1 +1,65 @@
 id_evidencia,app,categoria,versao_app,dispositivo,data_hora,pesquisador,par,fluxo,passo,acao,operador_klm,caracteres,descricao_elemento,codigo_candidato,arquivo_tela,trecho_video,canal_externo,gatilho,observacoes
+A02-X-T-001,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,1,toque,,0,App Store: limpar busca anterior,,,00:00,,,
+A02-X-T-002,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,2,digitacao,,8,App Store: buscar duolingo,,,00:02,,,
+A02-X-T-003,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,3,toque,,0,Obter (Get) Duolingo,,,00:06,,,
+A02-X-T-004,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,4,toque,,0,Confirmar instalação (botão lateral/Face ID),,,00:09,,,folha da App Store mostra e-mail pessoal (não versionar)
+A02-X-T-005,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,5,espera,,0,Download do app (~25 s),,,00:11,,,
+A02-X-T-006,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,6,toque,,0,Abrir,,,00:36,,,
+A02-X-T-007,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,7,observacao,,0,1ª tela: Learn for free. Forever. – GET STARTED / I ALREADY HAVE AN ACCOUNT,,,00:41,,,interface em inglês (idioma do aparelho); protocolo pede português
+A02-P1-E-008,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,8,toque,,0,GET STARTED,,,00:42,,,
+A02-P1-E-009,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,9,toque,,0,Hi there! I'm Duo! – CONTINUE,,,00:45,,,
+A02-P1-E-010,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,10,toque,,0,Just 7 quick questions – CONTINUE,,,00:47,,,
+A02-P1-E-011,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,11,toque,,0,What would you like to learn? – Inglês,,,00:52,,,
+A02-P1-E-012,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,12,toque,,0,CONTINUE (aviso: This will change the app's interface to Portuguese),,,00:53,,,
+A02-P1-E-013,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,13,toque,,0,CANCEL,,,00:56,,,
+A02-P1-E-014,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,14,toque,,0,Espanhol (aviso reaparece),,,00:58,,,
+A02-P1-E-015,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,15,toque,,0,CHANGE TO PORTUGUESE,,,01:00,,,a partir daqui interface em português; curso de espanhol
+A02-P1-E-016,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,16,toque,,0,Como você soube do Duolingo? – TikTok,,,01:07,,,
+A02-P1-E-017,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,17,toque,,0,CONTINUAR,,,01:07,,,
+A02-P1-E-018,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,18,toque,,0,iOS: permitir rastreamento (ATT) – opção a confirmar,AR06,A02_icaro_0068.png,01:08,,,pedido de rastreamento no meio do cadastro sem ação relacionada; CONFIRMAR opção
+A02-P1-E-019,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,19,toque,,0,Quanto você entende de espanhol? – Não sei nada de espanhol,,,01:12,,,
+A02-P1-E-020,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,20,toque,,0,CONTINUAR,,,01:13,,,
+A02-P1-E-021,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,21,toque,,0,Você quer aprender espanhol para… – Avançar nos estudos,,,01:17,,,
+A02-P1-E-022,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,22,toque,,0,CONTINUAR,,,01:18,,,
+A02-P1-E-023,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,23,toque,,0,Vamos criar uma rotina de aprendizado! – CONTINUAR,,,01:19,,,
+A02-P1-E-024,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,24,toque,,0,Qual vai ser a sua meta semanal? – 30 min/semana,,,01:22,,,
+A02-P1-E-025,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,25,toque,,0,VOU CUMPRIR A META,,,01:22,,,
+A02-P1-E-026,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,26,toque,,0,CONTINUAR,,,01:24,,,
+A02-P2-E-027,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,engajamento,27,toque,,0,Vou lembrar você de praticar até virar um hábito! – ME LEMBRE DE PRATICAR,AR06,A02_icaro_0086.png,01:27,,,pré-diálogo imita o pedido do iOS com Allow destacado e seta; único botão
+A02-P2-E-028,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,engajamento,28,toque,,0,iOS: Duolingo gostaria de enviar notificações – Allow (a confirmar),,,01:28,,,CONFIRMAR opção
+A02-P1-E-029,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,29,toque,,0,Widget: Vou torcer por você direto da sua tela inicial! – CONTINUAR,,,01:30,,,aceitou o widget
+A02-X-T-030,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,30,toque,,0,"Pra começar, pressione e segure a sua tela de início… – CONTINUAR",,,01:33,,,
+A02-X-T-031,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,31,toque,,0,Depois toque no botão Editar… – IR PARA TELA INICIAL,NOVO,,01:37,,,app leva à tela inicial do iOS com vídeo em PiP ensinando a adicionar o widget
+A02-X-T-032,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,32,observacao,,0,Menu do ícone do Duolingo na tela inicial: 'Remover o Duolingo? O Duo vai dar um jeito de te achar.',AR09,A02_icaro_0106.png,01:44,,,atalho do ícone com texto que constrange a remoção do app
+A02-X-T-033,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,33,observacao,,0,"Adição do widget na tela inicial do iOS (01:45–02:14): editar tela, galeria de widgets, Duolingo, Adicionar",,,01:45,,,desvio opcional; não contado no IAF
+A02-P1-E-034,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,34,toque,,0,Depois toque no botão Editar… – CONTINUAR,,,02:16,,,volta ao app
+A02-P1-E-035,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,35,toque,,0,Veja o que você vai conseguir fazer em 3 meses! – CONTINUAR,,,02:19,,,
+A02-P1-E-036,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,36,toque,,0,Como você quer começar? – Super Duolingo (selo R$ 0 POR 1 MÊS),,,02:22,,,tocou o Super e depois trocou
+A02-P1-E-037,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,37,toque,,0,Aprenda de graça,,,02:23,,,
+A02-P1-E-038,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,38,toque,,0,CONTINUAR,,,02:24,,,não seguiu para a oferta do Super (P4 não percorrido)
+A02-P1-E-039,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,39,toque,,0,Por onde você quer começar? – Começar do zero,,,02:27,,,
+A02-P1-E-040,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,40,toque,,0,CONTINUAR,,,02:27,,,
+A02-P1-E-041,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,41,toque,,0,Certo! Vamos fazer a primeira lição? Leva só 2 minutinhos – CONTINUAR,,,02:30,,,
+A02-X-T-042,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,42,observacao,,0,Primeira lição (02:31–03:57): ~15 exercícios,,,02:31,,,respostas da lição não entram no IAF (decisão de protocolo a aprovar)
+A02-P5-E-043,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,engajamento,43,toque,,0,Lição concluída! Você quer aprender! – RECEBER XP,,,04:02,,,
+A02-P5-E-044,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,engajamento,44,toque,,0,CONTINUAR,,,04:03,,,
+A02-P5-E-045,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,engajamento,45,toque,,0,Muito bem! Agora vamos criar o hábito de praticar todo dia – CONTINUAR,,,04:06,,,
+A02-P5-E-046,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,engajamento,46,gesto,,0,Arraste pra acender a sua ofensiva!,,A02_icaro_0249.png,04:09,,,gesto obrigatório
+A02-P5-E-047,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,engajamento,47,toque,,0,1 dia de ofensiva – Consegue praticar todo dia? – VOU ME DEDICAR,,,04:17,,,
+A02-P5-E-048,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,engajamento,48,toque,,0,Escolha uma meta de ofensiva – 7 dias (Ganhe 35 cristais),,A02_icaro_0259.png,04:19,,,
+A02-P5-E-049,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,engajamento,49,toque,,0,VOU ME DEDICAR,,,04:19,,,recebe 20 cristais
+A02-P5-E-050,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,engajamento,50,toque,,0,Pratique todos os dias essa semana pra desbloquear novos Duos! – VAMOS LÁ,AR04,A02_icaro_0264.png,04:24,,,recompensa condicionada a retorno diário; não aleatória
+A02-P1-E-051,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P1,engajamento,51,toque,,0,Não perca o seu progresso! Vamos criar um perfil. – DEPOIS,AR03,A02_icaro_0267.png,04:29,,,CONTA NÃO FOI CRIADA: P1 incompleto
+A02-P2-S-052,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,saida,52,toque,,0,Avatar (Perfil),,,04:30,,,
+A02-P2-S-053,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,saida,53,toque,,0,Perfil – engrenagem (Configurações),,,04:31,,,
+A02-P2-S-054,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,saida,54,toque,,0,Configurações – Notificações,,,04:33,,,
+A02-P2-S-055,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,saida,55,toque,,0,Notificações – Lembretes,AR10,A02_icaro_0275.png,04:34,,,lembretes (celular e e-mail) e Lembretes inteligentes ativos por padrão
+A02-P2-S-056,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,saida,56,toque,,0,Lembretes inteligentes – desligar,,,04:37,,,
+A02-P2-S-057,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,saida,57,toque,,0,Lembrete para praticar – desligar (celular),,,04:41,,,
+A02-P2-S-058,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,saida,58,toque,,0,Lembrete para praticar – desligar (e-mail),,,04:43,,,
+A02-P5-S-059,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,saida,59,toque,,0,Bloqueio de ofensiva utilizado – desligar,,,04:46,,,navegação compartilhada com P2
+A02-P5-S-060,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P5,saida,60,toque,,0,Ofensiva em perigo – desligar,,,04:48,,,navegação compartilhada com P2
+A02-P2-S-061,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,P2,saida,61,toque,,0,Progresso semanal – desligar (e-mail),,,04:50,,,
+A02-X-T-062,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,62,voltar,,0,Voltar – Notificações (notificações desativadas),,A02_icaro_0295.png,04:55,,,"Amigos, Ligas, Avisos (promoções) e Toques dos amigos continuaram ativos"
+A02-X-T-063,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,63,observacao,,0,"Perfil ('Você precisa ter um perfil…'), Configurações, Configurações de privacidade (04:57–05:28)",,,04:57,,,sem perfil não há opção de excluir conta
+A02-X-T-064,A02,Gamificado de estudo,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:06,icaro,-,transversal,64,toque,,0,Configurações – SAIR,,,05:30,,,sessão encerrada; não é exclusão de conta

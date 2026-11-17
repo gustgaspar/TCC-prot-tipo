@@ -1,0 +1,15 @@
+{
+  "app": "A01",
+  "categoria": "Vídeo curto",
+  "versao_app": "",
+  "dispositivo": "iPhone (gravação 384x848) / iOS ?",
+  "data": "2026-11-16 23:00",
+  "pesquisador": "icaro",
+  "modo": "manual",
+  "pares_nao_aplicaveis": [
+    "P4",
+    "P5"
+  ],
+  "pares_nao_observaveis": [],
+  "inspetor": "icaro"
+}

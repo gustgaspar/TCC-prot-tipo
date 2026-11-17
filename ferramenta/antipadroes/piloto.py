@@ -31,7 +31,7 @@ from . import concordancia, ficha, iaf
 from .iaf import NOMES_PARES
 from .modelo import PARES, Sessao
 
-PAR_PARA_ANTIPADRAO = {"P1": "AR07", "P4": "AR08"}   # mesma regra do detector D4
+PAR_PARA_ANTIPADRAO = {"P1": "AR07", "P2": "AR05", "P4": "AR08"}   # livro de códigos: AR05/AR07/AR08 no par
 _FICHA = re.compile(r"^(A\d+)_(.+)\.csv$")
 _RODADA = re.compile(r"^rodada(\d+)$")
 
@@ -247,7 +247,7 @@ def resultados_markdown(apps: dict[str, App], manuais: list[Sessao], auto: list[
         if any(s.app == a for s in manuais) else "—" for a in codigos])
     linhas.append(["Antipadrões codificados (maioria)"] + [
         (", ".join(f"{ap} ({n})" for ap, n in sorted(_contar([c[2] for c in codificados if c[0] == a]).items())) or "nenhum")
-        if codificados or kappas else "—" for a in codigos])
+        if any(kappas.values()) else "—" for a in codigos])
     linhas.append(["Divergências de contagem entre inspetores"] + [
         ("; ".join(div[a]) or "nenhuma") if len([s for s in manuais if s.app == a]) > 1 else "—" for a in codigos])
     linhas.append(["Fluxos automatizados com sucesso"] + [_auto(a, auto) for a in codigos])

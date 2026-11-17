@@ -1,0 +1,16 @@
+{
+  "app": "A02",
+  "categoria": "Gamificado de estudo",
+  "versao_app": "7.149.0",
+  "dispositivo": "iPhone (1170x2532) / iOS ?",
+  "data": "2026-11-16 23:13",
+  "pesquisador": "gustavo",
+  "modo": "manual",
+  "pares_nao_aplicaveis": [
+    "P3"
+  ],
+  "pares_nao_observaveis": [
+    "P4"
+  ],
+  "inspetor": "gustavo"
+}

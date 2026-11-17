@@ -1,1 +1,73 @@
 id_evidencia,app,categoria,versao_app,dispositivo,data_hora,pesquisador,par,fluxo,passo,acao,operador_klm,caracteres,descricao_elemento,codigo_candidato,arquivo_tela,trecho_video,canal_externo,gatilho,observacoes
+A01-X-T-001,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,1,observacao,,0,App Store: TikTok instalando (download ~25 s),,,00:00,,,
+A01-X-T-002,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,2,toque,,0,App Store: Abrir,,,00:25,,,
+A01-X-T-003,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,3,observacao,,0,Central de Controle aberta e app reaberto (00:27–00:50); splash demorou,,,00:27,,,
+A01-X-T-004,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,4,observacao,,0,1ª tela: Welcome back com contas salvas no aparelho + Add another account,,,00:52,,,contas pessoais salvas no aparelho (não versionar)
+A01-P1-E-005,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,5,toque,,0,Add another account,,,00:55,,,
+A01-P1-E-006,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,6,toque,,0,Log in to TikTok – Continue with Google,,,01:00,,,
+A01-P1-E-007,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,7,toque,,0,iOS: TikTok quer usar accounts.google.com – Continue,,,01:01,,,
+A01-P1-E-008,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,8,toque,,0,Google: Escolha uma conta – conta de teste,,,01:10,,,
+A01-P1-E-009,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,9,gesto,,0,Verify to continue: arrastar peça do quebra-cabeça (falhou),,,01:19,,,captcha
+A01-P1-E-010,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,10,gesto,,0,Verify to continue: arrastar peça (verificação concluída),,,01:25,,,
+A01-P1-E-011,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,11,toque,,0,Google: Continuar (permitir acesso ao TikTok),,,01:29,,,
+A01-P1-E-012,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,12,toque,,0,Log in to TikTok – Continue with Google (de novo),,,01:35,,,voltou à tela de login após processar
+A01-P1-E-013,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,13,gesto,,0,When's your birthday? – rolar dia,,,01:39,,,contagem de gestos do seletor aproximada
+A01-P1-E-014,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,14,gesto,,0,rolar mês,,,01:40,,,
+A01-P1-E-015,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,15,gesto,,0,rolar ano,,,01:41,,,
+A01-P1-E-016,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,16,gesto,,0,rolar ano,,,01:42,,,
+A01-P1-E-017,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,17,gesto,,0,rolar ano (2005),,,01:43,,,
+A01-P1-E-018,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,18,toque,,0,Continue,,,01:46,,,
+A01-P1-E-019,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,19,digitacao,,7,Create nickname: editar o apelido sugerido (nome da conta Google),,,01:52,,,
+A01-P1-E-020,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,20,toque,,0,Continue,,,01:55,,,
+A01-P2-E-021,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,engajamento,21,toque,,0,Allow permissions + iOS: TikTok gostaria de enviar notificações – Allow (a confirmar),AR06,A01_gustavo_0118.png,01:58,,,pedido de notificação no meio do cadastro sem ação relacionada; CONFIRMAR opção
+A01-P1-E-022,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,22,toque,,0,Tell us more about yourself – Skip,,,02:06,,,
+A01-P1-E-023,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,23,toque,,0,Choose what you like – Comedy,,,02:08,,,
+A01-P1-E-024,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,24,toque,,0,Gaming,,,02:10,,,
+A01-P1-E-025,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,25,toque,,0,Music,,,02:11,,,
+A01-P1-E-026,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,engajamento,26,toque,,0,Next,,,02:12,,,
+A01-P3-E-027,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P3,engajamento,27,gesto,,0,Swipe up to start watching,,,02:14,,,vídeo começa a tocar
+A01-X-T-028,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,28,toque,,0,iOS: permitir rastreamento (ATT) sobre o feed – opção a confirmar,AR06,A01_gustavo_0137.png,02:16,,,CONFIRMAR opção
+A01-X-T-029,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,29,gesto,,0,Feed: rolar,AR01,A01_gustavo_0160.png,02:40,,,"4 rolagens manuais (02:40–03:09), menos que as 20 do protocolo; nenhum marcador de fim"
+A01-X-T-030,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,30,gesto,,0,Feed: rolar,,,02:47,,,
+A01-X-T-031,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,31,gesto,,0,Feed: rolar,,,02:57,,,
+A01-X-T-032,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,32,gesto,,0,Feed: rolar,,,03:09,,,
+A01-X-T-033,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,33,toque,,0,Compartilhar (abre folha com Auto scroll),,,03:16,,,
+A01-X-T-034,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,34,toque,,0,Auto scroll – ativar,,,03:18,,,"rolagem automática ligada pelo inspetor; vídeos trocam sozinhos (03:22, 03:43, 03:57, 04:13, 04:30)"
+A01-X-T-035,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,35,observacao,,0,Pílula 'Back to manual scroll' disponível no topo; não foi tocada,,,03:20,,,P3 saída não executada (rolagem automática continuou ligada)
+A01-P2-S-036,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,36,toque,,0,Aba Profile,,,04:36,,,
+A01-X-T-037,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,37,toque,,0,iOS: TikTok quer acessar seus Contatos – Don't Allow (a confirmar),AR06,A01_gustavo_0277.png,04:37,,,"pedido de contatos ao abrir o perfil, sem ação relacionada"
+A01-P2-S-038,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,38,toque,,0,Menu (☰),,,04:40,,,navegação compartilhada com P1 saída
+A01-P2-S-039,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,39,toque,,0,Settings and privacy,,,04:42,,,
+A01-P2-S-040,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,40,toque,,0,Notifications,AR10,A01_gustavo_0286.png,04:45,,,todas as categorias ativas por padrão (inclui Streaks e sugestões de posts)
+A01-P2-S-041,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,41,toque,,0,Likes – desligar,,,04:47,,,contagem de chaves aproximada (09) a confirmar
+A01-P2-S-042,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,42,toque,,0,Saves – desligar,,,04:48,,,
+A01-P2-S-043,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,43,toque,,0,Comments – desligar,,,04:50,,,
+A01-P2-S-044,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,44,toque,,0,New followers – desligar,,,04:52,,,
+A01-P2-S-045,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,45,toque,,0,Reposts – desligar,,,04:53,,,
+A01-P2-S-046,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,46,toque,,0,Posts you interacted with – desligar,,,04:54,,,
+A01-P2-S-047,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,47,gesto,,0,Rolar lista,,,04:55,,,
+A01-P2-S-048,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,48,toque,,0,Streaks – desligar,,,04:57,,,
+A01-P2-S-049,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,49,toque,,0,Direct messages – desligar,,,04:59,,,prévia e pedidos de mensagem desligam juntos
+A01-P2-S-050,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,50,toque,,0,Activity status – desligar,,,05:01,,,
+A01-P2-S-051,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,51,gesto,,0,Rolar lista,,,05:02,,,
+A01-P2-S-052,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P2,saida,52,gesto,,0,Rolar lista,,,05:04,,,"Bulletin board, sugestões de posts e LIVE continuaram ativos"
+A01-P1-S-053,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,53,voltar,,0,Voltar para Settings and privacy,,,05:07,,,"Profile, ☰ e Settings and privacy já contados em P2"
+A01-P1-S-054,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,54,toque,,0,Account,,,05:11,,,
+A01-P1-S-055,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,55,gesto,,0,Rolar lista,,,05:13,,,
+A01-P1-S-056,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,56,toque,,0,Deactivate or delete account,,,05:15,,,
+A01-P1-S-057,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,57,toque,,0,Delete or deactivate? – Delete account permanently,,,05:22,,,desativar aparece primeiro
+A01-P1-S-058,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,58,toque,,0,"Before you go, can we help? – Another reason",,,05:31,,,
+A01-P1-S-059,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,59,toque,,0,Fechar teclado,,,05:33,,,
+A01-P1-S-060,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,60,toque,,0,I'm leaving temporarily,AR07,A01_gustavo_0336.png,05:36,,,"ao escolher, app sugere desativar em vez de excluir (oferta de retenção)"
+A01-P1-S-061,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,61,toque,,0,Continue,,,05:37,,,
+A01-P1-S-062,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,62,toque,,0,Before deleting your account – marcar 'I understand I'll permanently lose access',,,05:43,,,
+A01-P1-S-063,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,63,toque,,0,Continue,,,05:44,,,
+A01-P1-S-064,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,64,toque,,0,Download your TikTok data – marcar caixa,,,05:48,,,
+A01-P1-S-065,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,65,toque,,0,Continue,,,05:49,,,
+A01-P1-S-066,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,66,toque,,0,delete this account? (lista de perdas) – Continue,,A01_gustavo_0351.png,05:52,,,conta desativada por 30 dias antes da exclusão
+A01-P1-S-067,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,67,toque,,0,Help us confirm it's you – Send code,,A01_gustavo_0355.png,05:55,,,
+A01-P1-S-068,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,68,digitacao,,6,Digitar código de 6 dígitos recebido por e-mail,,,06:15,sim,,código lido no e-mail (fora do app)
+A01-P1-S-069,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,69,toque,,0,Delete account,,,06:20,,,
+A01-P1-S-070,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,P1,saida,70,toque,,0,Delete <usuário>? – Delete,,,06:22,,,
+A01-X-T-071,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,71,toque,,0,Account status: Your account was deleted – OK,,,06:25,,,
+A01-X-T-072,A01,Vídeo curto,,iPhone (1170x2532) / iOS ?,2026-11-16 23:02,gustavo,-,transversal,72,observacao,,0,Welcome back (contas salvas),,,06:27,,,

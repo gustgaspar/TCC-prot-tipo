@@ -1,0 +1,16 @@
+{
+  "app": "A02",
+  "categoria": "Gamificado de estudo",
+  "versao_app": "",
+  "dispositivo": "iPhone (gravação 384x848) / iOS ?",
+  "data": "2026-11-16 23:06",
+  "pesquisador": "icaro",
+  "modo": "manual",
+  "pares_nao_aplicaveis": [
+    "P3"
+  ],
+  "pares_nao_observaveis": [
+    "P4"
+  ],
+  "inspetor": "icaro"
+}

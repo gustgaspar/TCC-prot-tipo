@@ -1,1 +1,92 @@
 id_evidencia,app,categoria,versao_app,dispositivo,data_hora,pesquisador,par,fluxo,passo,acao,operador_klm,caracteres,descricao_elemento,codigo_candidato,arquivo_tela,trecho_video,canal_externo,gatilho,observacoes
+A01-X-T-001,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,1,toque,,0,App Store: Buscar,,,00:01,,,
+A01-X-T-002,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,2,digitacao,,6,Buscar tiktok,,,00:03,,,
+A01-X-T-003,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,3,toque,,0,Obter (Get) TikTok,,,00:06,,,
+A01-X-T-004,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,4,espera,,0,Download (~42 s),,,00:07,,,
+A01-X-T-005,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,5,toque,,0,Abrir,,,00:49,,,
+A01-X-T-006,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,6,observacao,,0,"1ª tela: Log in to TikTok (Use phone/email/username, Facebook, Apple, Google; Sign up no rodapé)",,,01:03,,,
+A01-P1-E-007,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,7,toque,,0,Use phone / email / username,,,01:04,,,foi pelo login antes de achar o cadastro
+A01-P1-E-008,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,8,toque,,0,Aba Email / Username,,,01:06,,,
+A01-P1-E-009,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,9,digitacao,,10,Digitar e-mail (início),,,01:07,,,
+A01-P1-E-010,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,10,toque,,0,Continue,,,01:12,,,
+A01-P1-E-011,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,11,gesto,,0,Verify to continue: arrastar peça do quebra-cabeça,,,01:14,,,captcha
+A01-P1-E-012,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,12,digitacao,,12,Completar e-mail,,,01:16,,,
+A01-P1-E-013,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,13,toque,,0,Continue,,,01:21,,,Account doesn't exist
+A01-P1-E-014,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,14,toque,,0,Create a new account,,,01:26,,,
+A01-P1-E-015,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,15,gesto,,0,When's your birthday? – rolar mês,,,01:30,,,contagem de gestos do seletor aproximada
+A01-P1-E-016,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,16,gesto,,0,rolar mês,,,01:31,,,
+A01-P1-E-017,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,17,gesto,,0,rolar ano (2005),,,01:33,,,
+A01-P1-E-018,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,18,toque,,0,Continue,,,01:33,,,
+A01-P1-E-019,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,19,toque,,0,Sign up – Email (preenchido) – Continue,,,01:35,,,
+A01-P1-E-020,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,20,digitacao,,6,Verify email: código de 6 dígitos (sugestão do teclado 'From Gmail'),,,01:42,,,código vem por e-mail
+A01-P1-E-021,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,21,digitacao,,9,Create password,,,01:52,,,senha não registrada na ficha
+A01-P1-E-022,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,22,toque,,0,Continue,,,01:52,,,
+A01-P1-E-023,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,23,digitacao,,5,Create nickname,,,01:58,,,
+A01-P1-E-024,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,24,toque,,0,Continue,,,01:59,,,
+A01-P2-E-025,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,engajamento,25,toque,,0,Allow permissions + iOS: TikTok gostaria de enviar notificações – Allow (a confirmar),AR06,A01_icaro_0124.png,02:05,,,pedido no meio do cadastro sem ação relacionada; CONFIRMAR opção
+A01-P1-E-026,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,26,toque,,0,Tell us more about yourself – Man,,,02:07,,,
+A01-P1-E-027,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,27,gesto,,0,Choose what you like – rolar,,,02:10,,,
+A01-P1-E-028,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,28,toque,,0,Comedy,,,02:11,,,
+A01-P1-E-029,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,29,toque,,0,Gaming,,,02:12,,,
+A01-P1-E-030,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,engajamento,30,toque,,0,Next,,,02:13,,,
+A01-P3-E-031,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P3,engajamento,31,gesto,,0,Swipe up to start watching,,,02:15,,,vídeo começa a tocar
+A01-X-T-032,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,32,toque,,0,iOS: permitir rastreamento (ATT) sobre o feed – opção a confirmar,AR06,A01_icaro_0137.png,02:17,,,CONFIRMAR opção
+A01-X-T-033,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,33,observacao,,0,"Feed: cerca de 22 rolagens manuais (02:28–03:40), nenhum marcador de fim ou pausa",AR01,,02:28,,,
+A01-X-T-034,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,34,observacao,,0,Anúncio no feed: 'Gire a roleta pra ganhar R$150' – Jogar agora,AR04,A01_icaro_0201.png,03:21,,,recompensa aleatória oferecida no feed
+A01-P2-S-035,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,35,toque,,0,Aba Profile,,,03:42,,,
+A01-X-T-036,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,36,toque,,0,iOS: TikTok quer acessar seus Contatos – Don't Allow (a confirmar),AR06,A01_icaro_0222.png,03:42,,,"pedido de contatos ao abrir o perfil, sem ação relacionada"
+A01-P2-S-037,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,37,toque,,0,Menu (☰),,,03:45,,,navegação compartilhada com P1 saída
+A01-P2-S-038,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,38,toque,,0,Settings and privacy,,,03:46,,,
+A01-P2-S-039,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,39,toque,,0,Notifications,AR10,A01_icaro_0231.png,03:48,,,todas as categorias ativas por padrão
+A01-P2-S-040,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,40,toque,,0,In-app notifications,,,03:52,,,
+A01-P2-S-041,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,41,voltar,,0,Voltar,,,03:55,,,
+A01-P2-S-042,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,42,toque,,0,Push notification schedule,,,03:57,,,
+A01-P2-S-043,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,43,voltar,,0,Voltar,,,03:58,,,
+A01-P2-S-044,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,44,toque,,0,Likes – desligar,,,04:00,,,contagem de chaves aproximada a confirmar
+A01-P2-S-045,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,45,toque,,0,Saves – desligar,,,04:01,,,
+A01-P2-S-046,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,46,toque,,0,Comments – desligar,,,04:01,,,
+A01-P2-S-047,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,47,toque,,0,New followers – desligar,,,04:02,,,
+A01-P2-S-048,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,48,toque,,0,Reposts – desligar,,,04:02,,,
+A01-P2-S-049,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,49,toque,,0,Posts you interacted with – desligar,,,04:03,,,
+A01-P2-S-050,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,50,gesto,,0,Rolar lista,,,04:04,,,
+A01-P2-S-051,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,51,toque,,0,Streaks – desligar,,,04:05,,,
+A01-P2-S-052,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,52,toque,,0,Direct messages – desligar,,,04:06,,,
+A01-P2-S-053,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,53,toque,,0,Activity status – desligar,,,04:07,,,
+A01-P2-S-054,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,54,gesto,,0,Rolar lista,,,04:08,,,
+A01-P2-S-055,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,55,toque,,0,New bulletins – desligar,,,04:09,,,
+A01-P2-S-056,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,56,toque,,0,Invitations – desligar,,,04:09,,,
+A01-P2-S-057,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,57,toque,,0,Interactions – desligar,,,04:10,,,
+A01-P2-S-058,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,58,toque,,0,New members – desligar,,,04:10,,,
+A01-P2-S-059,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,59,gesto,,0,Rolar lista,,,04:11,,,
+A01-P2-S-060,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,60,toque,,0,Posts from people you may know – desligar,,,04:12,,,
+A01-P2-S-061,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,61,toque,,0,Reposted by others – desligar,,,04:12,,,
+A01-P2-S-062,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,62,toque,,0,Posts you might like – desligar,,,04:13,,,
+A01-P2-S-063,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,63,toque,,0,Creator ranking notifications – desligar,,,04:13,,,
+A01-P2-S-064,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,64,gesto,,0,Rolar lista,,,04:14,,,
+A01-P2-S-065,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,65,toque,,0,People you may know – desligar,,,04:15,,,
+A01-P2-S-066,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,66,toque,,0,Customized updates and more – desligar,,,04:16,,,
+A01-P2-S-067,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,67,gesto,,0,Rolar para conferir,,,04:18,,,rolagens de conferência 04:16–04:25 (aprox.)
+A01-P2-S-068,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,68,gesto,,0,Rolar para conferir,,,04:22,,,
+A01-P2-S-069,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,69,toque,,0,SMS notifications (abre Add phone),,,04:28,,,
+A01-P2-S-070,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,70,voltar,,0,Voltar,,,04:29,,,
+A01-P2-S-071,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,71,toque,,0,Email notifications,,,04:32,,,
+A01-P2-S-072,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P2,saida,72,toque,,0,All email notifications – desligar,,,04:36,,,"e-mails ativos por padrão (newsletters, promoções etc.)"
+A01-P1-S-073,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,73,voltar,,0,Voltar para Notifications,,,04:37,,,"Profile, ☰ e Settings and privacy já contados em P2"
+A01-P1-S-074,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,74,voltar,,0,Voltar para Settings and privacy,,,04:42,,,
+A01-P1-S-075,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,75,gesto,,0,Rolar lista (procurando),,,04:43,,,
+A01-P1-S-076,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,76,gesto,,0,Rolar lista,,,04:45,,,
+A01-P1-S-077,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,77,gesto,,0,Rolar lista de volta,,,04:49,,,
+A01-P1-S-078,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,78,toque,,0,Account,,,04:57,,,
+A01-P1-S-079,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,79,toque,,0,Deactivate or delete account,,,04:58,,,
+A01-P1-S-080,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,80,toque,,0,Delete or deactivate? – Delete account permanently,,,05:01,,,desativar aparece primeiro
+A01-P1-S-081,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,81,toque,,0,"Before you go, can we help? – I'm on TikTok too much",AR07,A01_icaro_0366.png,05:06,,,app sugere 'Setting a limit on your watch time' em vez de excluir
+A01-P1-S-082,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,82,toque,,0,Continue,,,05:07,,,
+A01-P1-S-083,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,83,toque,,0,Download your TikTok data – marcar caixa,,,05:13,,,
+A01-P1-S-084,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,84,toque,,0,Continue,,,05:15,,,
+A01-P1-S-085,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,85,toque,,0,delete this account? (lista de perdas) – Continue,,,05:16,,,conta desativada por 30 dias antes da exclusão
+A01-P1-S-086,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,86,toque,,0,Help us confirm it's you – Send code,,A01_icaro_0379.png,05:18,,,
+A01-P1-S-087,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,87,digitacao,,6,Código de 6 dígitos recebido por e-mail (sugestão do teclado),,,05:24,sim,,código lido no e-mail (fora do app)
+A01-P1-S-088,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,88,toque,,0,Delete account,,,05:25,,,
+A01-P1-S-089,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,P1,saida,89,toque,,0,Delete …? – Delete,,,05:27,,,
+A01-X-T-090,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,90,toque,,0,Account status: Your account was deleted – OK,,,05:30,,,
+A01-X-T-091,A01,Vídeo curto,,iPhone (gravação 384x848) / iOS ?,2026-11-16 23:00,icaro,-,transversal,91,toque,,0,Sign in with passkey – fechar,,,05:31,,,
