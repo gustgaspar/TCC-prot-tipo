@@ -16,3 +16,7 @@ tests/fixtures/sessoes/*/relatorio.*
 
 # correspondência código ↔ app real e anotações locais (não vão para o repositório)
 piloto/local/
+*.mov
+*.MOV
+*.MP4
+.DS_Store
