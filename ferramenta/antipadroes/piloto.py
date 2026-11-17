@@ -4,6 +4,7 @@ Estrutura esperada da pasta do piloto (padrão: piloto/):
 
     apps.csv                          codigo,categoria,nao_aplicaveis,nao_observaveis,dias_notificacoes
     fichas/<APP>_<inspetor>.csv       uma ficha por inspetor e app (inspeção manual)
+    notificacoes/<APP>_<inspetor>.csv opcional: notificações recebidas (data,app,titulo,texto,origem)
     sessoes/<APP>_auto/               opcional: sessão da coleta automatizada (antipadroes coletar)
     codificacao/rodada<N>/<nome>.csv  planilhas de codificação, uma por codificador
 
@@ -21,6 +22,7 @@ from __future__ import annotations
 
 import csv
 import re
+import shutil
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -70,6 +72,9 @@ def converter_fichas(pasta: Path, apps: dict[str, App]) -> list[Sessao]:
         s = ficha.converter(arq, pasta / "sessoes" / arq.stem, app.nao_aplicaveis, app.nao_observaveis)
         s.meta["inspetor"] = m.group(2)
         s.salvar()
+        notif = pasta / "notificacoes" / arq.name
+        if notif.exists():
+            shutil.copyfile(notif, s.pasta / "notificacoes.csv")
         sessoes.append(s)
     return sessoes
 
@@ -107,6 +112,11 @@ def unidades(sessoes: list[Sessao]) -> list[tuple[str, str, str, str]]:
                 else:
                     un = f"passo:{insp}-{a.passo}"
                 vistos.setdefault((s.app, un, cod), f"{a.par} {a.fluxo}: {a.descricao}".strip())
+        for i, n in enumerate(s.notificacoes(), start=1):
+            texto = " – ".join(x for x in ((n.get("titulo") or "").strip(), (n.get("texto") or "").strip()) if x)
+            if texto:
+                for cod in ("AR03", "AR05"):
+                    vistos.setdefault((s.app, f"notificacao:{insp}-{i}", cod), f"{(n.get('data') or '').strip()}: {texto}")
     return sorted((k[0], k[1], k[2], v) for k, v in vistos.items())
 
 

@@ -13,3 +13,6 @@ dados_brutos/
 tests/fixtures/sessoes/*/achados.json
 tests/fixtures/sessoes/*/requisitos.jsonl
 tests/fixtures/sessoes/*/relatorio.*
+
+# correspondência código ↔ app real e anotações locais (não vão para o repositório)
+piloto/local/

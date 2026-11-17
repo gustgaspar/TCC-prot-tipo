@@ -16,6 +16,10 @@ def _montar(tmp_path: Path) -> Path:
     (p / "fichas" / "A00_ana.csv").write_text("\n".join(linhas) + "\n", encoding="utf-8")
     # o segundo inspetor não registrou o passo "Selecionar motivo" (diverge na contagem da saída)
     (p / "fichas" / "A00_bia.csv").write_text("\n".join(l for l in linhas if "Selecionar motivo" not in l) + "\n", encoding="utf-8")
+    (p / "notificacoes").mkdir()
+    (p / "notificacoes" / "A00_ana.csv").write_text("data,app,titulo,texto,origem\n"
+                                                    "2026-11-21,A00,,,manual\n"
+                                                    "2026-11-22,A00,Não perca!,Sua ofensiva vai acabar,manual\n", encoding="utf-8")
     (p / "fichas" / "A01_ninguem.csv").write_text(linhas[0] + "\n", encoding="utf-8")   # ficha só com cabeçalho
     return p
 
@@ -53,6 +57,9 @@ def test_piloto_de_ponta_a_ponta(tmp_path):
     unidades = piloto.unidades([__import__("antipadroes").modelo.Sessao.carregar(p / "sessoes" / "A00_ana")])
     assert ("A00", "P1", "AR07") == unidades[0][:3]
     assert any(u[1] == "tela:A00_015.png" and u[2] == "AR09" for u in unidades)
+    assert ("A00", "notificacao:ana-2", "AR03") in [u[:3] for u in unidades]          # notificação vazia é ignorada
+    assert not any(u[1] == "notificacao:ana-1" for u in unidades)
+    assert (p / "sessoes" / "A00_ana" / "notificacoes.csv").exists()
     n = len(unidades)
 
     # rodada 1 ainda em branco: kappa indisponível, sem erro
@@ -70,7 +77,7 @@ def test_piloto_de_ponta_a_ponta(tmp_path):
     assert "2,00" in texto and "–" in texto                       # IAF diverge entre inspetores (intervalo)
     assert "P1 sair: ana 12, bia 11" in texto
     assert "P1" in texto.split("Saída por canal externo?")[1].split("\n")[0]
-    assert "| Antipadrões codificados (maioria) | AR07 (3), AR09 (1) |" in texto   # P1 + telas 016 e 018
+    assert "| Antipadrões codificados (maioria) | AR03 (1), AR05 (1), AR07 (3), AR09 (1) |" in texto
     assert "não aplicável" in texto
 
 

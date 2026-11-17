@@ -21,8 +21,10 @@ python -m antipadroes piloto --codificadores gustavo icaro joao
 ```
 
 1. **Inspeção** – cada inspetor percorre os pares seguindo o [protocolo](../protocolo/protocolo_inspecao.md)
-   e registra uma linha por ação em `fichas/<APP>_<inspetor>.csv` (modelo em `../protocolo/ficha_modelo.csv`;
+   e registra uma linha por ação em `fichas/<APP>_<inspetor>.csv` — já criadas em branco para cada um (modelo em `../protocolo/ficha_modelo.csv`;
    exemplo em `../protocolo/ficha_exemplo.csv`). Ex.: `fichas/A01_gustavo.csv`.
+   Notificações recebidas: uma linha por notificação em `notificacoes/<APP>_<inspetor>.csv`
+   (`data,app,titulo,texto,origem`); entram nas planilhas de codificação como AR03/AR05.
 2. **Processar** – rode o comando acima. Ele converte as fichas em `sessoes/<APP>_<inspetor>/`, grava
    `iaf.csv` e cria uma planilha de codificação por pessoa em `codificacao/rodada1/<nome>.csv`, já com
    as unidades a codificar (pares P1/P4 e cada tela marcada com código candidato nas fichas).
