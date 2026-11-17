@@ -41,6 +41,10 @@ indecidivel  Cancelamento simétrico à assinatura :: Cancelar não custa mais d
 {'aprovado': 0, 'reprovado': 10, 'indecidivel': 5} proporção decidível: 0.667
 ```
 
+Relatório gerado para F01 (abre no navegador, com botão para modo claro/escuro):
+
+![Relatório HTML do app sintético F01](docs/relatorio_exemplo.png)
+
 ## Como funciona
 
 ```
